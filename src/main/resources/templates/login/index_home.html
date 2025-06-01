@@ -1,0 +1,26 @@
+<!-- templates/login/index_home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenBlunder - User</title>
+    <link rel="stylesheet" href="/css/tempDesign.css">
+</head>
+<body>
+<nav>
+    <a href="/">OpenBlunder</a>
+    <div class="nav-right">
+        <a href="/logout">Logout</a>
+    </div>
+</nav>
+<main>
+    <h1>안녕하세요, 사용자님!</h1>
+    <p>포스트를 보고 작성해보세요.</p>
+
+    <p>아이디: <span th:text="${user.username}"></span></p>
+    
+    <p><a href="/post">📄 포스트 목록 보기</a></p>
+</main>
+
+</body>
+</html>

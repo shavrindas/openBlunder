@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>나라 선택하기</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map { height: 600px; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        const map = L.map('map').setView([20, 0], 2);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // GeoJSON 불러오기 (URL 혹은 직접 포함 가능)
+        fetch('https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json')
+            .then(res => res.json())
+            .then(data => {
+                L.geoJSON(data, {
+                    onEachFeature: function (feature, layer) {
+                        layer.on('click', function () {
+                            const name = feature.properties.name;
+                            const iso_a3 = feature.id;  // ISO 3166-1 alpha-3 코드
+                            alert(`선택된 국가: ${name} (${iso_a3})`);
+                            // 여기서 유저 폼에 값 적용 가능
+                        });
+                        layer.setStyle({ color: '#3388ff', weight: 1 });
+                    }
+                }).addTo(map);
+            });
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Chess Opening Tracker</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@8.2.1/assets/chessground.base.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@8.2.1/assets/chessground.brown.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@8.2.1/assets/chessground.cburnett.css">
+  <style>
+    body { display: flex; gap: 30px; font-family: sans-serif; }
+    #board { width: 400px; height: 400px; }
+    table { border-collapse: collapse; }
+    td, th { border: 1px solid gray; padding: 4px 8px; }
+  </style>
+</head>
+<body>
+
+<div>
+  <div id="board"></div>
+  <div id="pgn-display" style="margin-top: 10px; font-family: monospace;"></div>
+  <button onclick="resetBoard()">초기화</button>
+</div>
+
+<div>
+  <h3>가능한 다음 오프닝 수</h3>
+  <table>
+    <thead>
+      <tr><th>다음 수</th><th>ECO</th><th>이름</th></tr>
+    </thead>
+    <tbody id="opening-table"></tbody>
+  </table>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chess.js@0.10.3/chess.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chessground@8.2.1/dist/chessground.min.js"></script>
+
+<script>
+const chess = new Chess();
+let allOpenings = [];
+
+const ground = Chessground(document.getElementById('board'), {
+  fen: 'start',
+  orientation: 'white',
+  draggable: {
+    enabled: true,
+    events: {
+      after(orig, dest) {
+        const move = chess.move({ from: orig, to: dest });
+        if (!move) return;
+
+        const moves = chess.history();
+
+        const candidates = allOpenings.filter(o =>
+          o.moves.length > moves.length &&
+          o.moves.slice(0, moves.length).every((m, i) => m === moves[i])
+        );
+
+        if (candidates.length === 0) {
+          alert("허용되지 않은 수입니다. 오프닝 목록에 없습니다.");
+          chess.undo();
+          ground.set({ fen: chess.fen() });
+          updateSuggestions();
+          return;
+        }
+
+        updateSuggestions();
+      }
+    }
+  }
+});
+
+function resetBoard() {
+  chess.reset();
+  ground.set({ fen: 'start' });
+  updateSuggestions();
+}
+
+async function loadAllOpenings() {
+  const files = ['a', 'b', 'c', 'd', 'e'];
+  const promises = files.map(f =>
+    fetch(`/data/eco/${f}.json`).then(res => {
+      if (!res.ok) throw new Error(`${f}.json not found`);
+      return res.json();
+    })
+  );
+
+  try {
+    const all = await Promise.all(promises);
+    allOpenings = all.flat();
+
+    // 수 번호 제거 (예: "1", "2" 등)
+    allOpenings = allOpenings.map(o => ({
+      ...o,
+      moves: o.moves.filter(m => isNaN(m))
+    }));
+
+    resetBoard();
+  } catch (err) {
+    console.error('오프닝 로딩 실패:', err);
+  }
+}
+
+function updateSuggestions() {
+  const moves = chess.history();
+
+  // ① 기보 출력
+  const pgn = moves.map((move, i) => {
+    const moveNumber = Math.floor(i / 2) + 1;
+    return (i % 2 === 0 ? `${moveNumber}. ${move}` : move);
+  }).join(' ');
+  document.getElementById("pgn-display").innerText = pgn;
+
+  // ② 다음 가능한 수 탐색
+  const candidates = allOpenings.filter(o =>
+    o.moves.length > moves.length &&
+    o.moves.slice(0, moves.length).every((m, i) => m === moves[i])
+  );
+
+  const nextMoves = {};
+  for (const o of candidates) {
+    const next = o.moves[moves.length];
+    if (!nextMoves[next]) {
+      nextMoves[next] = { eco: o.eco, name: o.name };
+    }
+  }
+
+  const table = document.getElementById("opening-table");
+  table.innerHTML = "";
+  for (const move in nextMoves) {
+    const row = document.createElement("tr");
+    row.innerHTML = `<td>${move}</td><td>${nextMoves[move].eco}</td><td>${nextMoves[move].name}</td>`;
+    table.appendChild(row);
+  }
+}
+
+window.addEventListener('DOMContentLoaded', loadAllOpenings);
+</script>
+
+</body>
+</html>
+

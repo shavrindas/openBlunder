@@ -1,0 +1,29 @@
+<!--  post/main.html -->
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>게시글 목록</title>
+    <link rel="stylesheet" href="/css/tempDesign.css">
+</head>
+<body>
+<nav>
+    <a href="/">OpenBlunder</a>
+    <div class="nav-right">
+        <a href="/post/create">새 글 작성</a>
+    </div>
+</nav>
+<main>
+    <h1>게시글 목록</h1>
+    <ul>
+        <li th:each="post : ${posts}">
+            <a th:href="@{/post/{id}(id=${post.id})}" th:text="${post.title}">제목</a>
+            <span th:text="${post.user.username}">작성자</span>
+            <span th:text="${#temporals.format(post.createdAt, 'yyyy-MM-dd HH:mm')}">작성일</span>
+        </li>
+    </ul>
+</main>
+</body>
+</html>
