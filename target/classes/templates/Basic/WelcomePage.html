@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Welcome</title>
+    
+</head>
+<body>
+    <div class="container">
+	  <div class="curtain left-curtain"></div>
+	  <div class="curtain right-curtain"></div>
+	  <div class="message">
+	    <b>Welcome to Open Blunder!</b>
+	    <form th:action="@{/guest}" method="get">
+	    	<button class="play-btn">Click here to Play</button>
+	    	<link rel="stylesheet" href="/css/style.css">
+	    </form>
+	  </div>
+	  <div class="knock-message">똑 똑 . .</div>
+	
+	  <div class="guide-message">Tap twice to see website</div>
+	  <div class="chess-board"></div> 
+	</div>
+
+
+  <div class="footer">
+    <div style = ' text-align: center; padding:20px; background-color: #ffffff'>
+        <div>
+          <img src = '/assets/img1.jpg' style = 'width:400px; height:auto'>
+          <h1>프로젝트 목표</h1>
+          <p>
+            Open Blunder 은 체스를 좀 더 쉽고 재미있게 공부할 수 있도록 함을<br/>
+            목표로 만들어진 체스 사이트입니다. 체스의 기초부터 시작하여<br/>
+            다양한 전술과 전략을 배우고, 실력을 향상시킬 수 있는<br/>
+            체스 학습 플랫폼을 제공합니다.
+          </p>
+        </div>
+
+        <div style = " text-align: center; padding: 20px; background-color:#fdfcf8">
+          <div>
+            <img src = "/assets/img2.jpeg" style = "width:400px; height:auto"> 
+            <h1>쉽게 배우는 체스 오프닝</h1>
+            <p>
+              사이트의 오프닝 섹션에서는 체스의 기본 오프닝을<br/>
+              쉽게 배우고 연습할 수 있는 기능을 제공합니다.<br/>
+              각 오프닝에 대한 설명과 예시를 통해 체스의 기초를<br/>
+              확실히 익힐 수 있습니다. 또한, 오프닝 연습을 통해<br/>
+              실전에서의 활용 능력을 향상시킬 수 있습니다.
+            </p>
+          </div>
+        </div>
+        
+        <div style = " text-align: center; padding: 20px; background-color: #f7f3f0">
+          <div >
+            <img src = '/assets/aboutUs.png' style = "width:100px; height:auto">
+            <span><h1>About us</h1></span>
+            <p>
+              Open Blunder 팀은 체스를 사랑하는 개발자들로 구성되어 있습니다.<br/>
+              우리는 체스의 매력을 많은 사람들과 공유하고, 체스를 통해<br/>
+              더 나은 사고력과 전략적 사고를 기를 수 있도록 돕고자 합니다.<br/>
+              우리의 목표는 체스를 배우고 즐기는 모든 이들에게<br/>
+              유용한 도구와 자료를 제공하는 것입니다.
+            </p>
+          </div>
+        </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

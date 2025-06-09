@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>프로필 페이지</title>
+</head>
+<body>
+    <h1 th:text="${user.username} + '님의 프로필'"></h1>
+    <img th:src="@{/assets/{file}(file=${user.profilePhoto})}" alt="프로필 사진" width="100"/>
+    <p>이메일: <span th:text="${user.email}"></span></p>
+    <p>국가: <span th:text="${user.nation} ?: '미등록'"></span></p>
+    <p>가입일: <span th:text="${#temporals.format(user.createdAt, 'yyyy-MM-dd')}"></span></p>
+
+    <a th:href="@{/edit}">프로필 수정하기</a>
+    <br><a th:href="@{/home}">홈으로</a>
+</body>
+</html>

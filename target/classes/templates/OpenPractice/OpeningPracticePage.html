@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>오프닝 연습장</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@9.2.1/assets/chessground.base.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@9.2.1/assets/chessground.brown.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@9.2.1/assets/chessground.cburnett.css" />
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+      display: flex;
+      gap: 30px;
+    }
+	#board {
+	  width: 100%;
+	  max-width: 400px;
+	  aspect-ratio: 1 / 1;
+	}
+    .info-panel {
+      flex: 1;
+    }
+    .box {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      background: #f9f9f9;
+    }
+    .scroll-box {
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    .move-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .move-box div {
+      background-color: #e0e0ff;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+    }
+    .board-container {
+	  width: 100%;
+	  max-width: 400px;
+	}
+  </style>
+</head>
+<body>
+  <div class="board-container">
+    <div id="board"></div>
+  </div>
+
+  <div class="info-panel">
+    <div class="box">
+      <h3>현재까지 일치하는 오프닝</h3>
+      <div id="matchingOpenings" class="scroll-box"></div>
+    </div>
+
+    <div class="box">
+      <h3>다음 수 추천</h3>
+      <div id="possibleNextOpenings" class="move-box"></div>
+    </div>
+
+    <div class="box">
+      <h3>현재 기보</h3>
+      <div id="pgnDisplay"></div>
+    </div>
+
+    <button id="resetBtn">리셋</button>
+  </div>
+
+  <script type="module">
+    import { Chessground } from "https://cdn.jsdelivr.net/npm/chessground@9.2.1/dist/chessground.min.js";
+
+    let game;
+    let board;
+    let allOpenings = [];
+
+    function getDests() {
+      const dests = new Map();
+      game.SQUARES.forEach(sq => {
+        const moves = game.moves({ square: sq, verbose: true });
+        if (moves.length) dests.set(sq, moves.map(m => m.to));
+      });
+      return dests;
+    }
+
+    function getMatchingOpenings(moves) {
+      return allOpenings.filter(opening =>
+        moves.every((move, idx) => opening.moves[idx] === move)
+      );
+    }
+
+    function getPossibleNextMoves(moves) {
+      const possible = allOpenings.filter(opening =>
+        moves.every((move, idx) => opening.moves[idx] === move) &&
+        opening.moves.length > moves.length
+      );
+      return [...new Set(possible.map(opening => opening.moves[moves.length]))];
+    }
+
+    function updateOpeningList() {
+      const moves = game.history();
+      const matching = getMatchingOpenings(moves);
+      const nextMoves = getPossibleNextMoves(moves);
+
+      document.getElementById("matchingOpenings").innerHTML =
+        matching.map(o => `<div>${o.name} (${o.eco})</div>`).join("");
+
+      document.getElementById("possibleNextOpenings").innerHTML =
+        nextMoves.map(move => `<div>${move}</div>`).join("");
+
+      document.getElementById("pgnDisplay").innerText = game.pgn();
+    }
+
+    async function loadOpenings() {
+      const files = ['a.json', 'b.json', 'c.json', 'd.json', 'e.json'];
+      for (const file of files) {
+        const res = await fetch(`/data/eco/${file}`);
+        const data = await res.json();
+        allOpenings.push(...data);
+      }
+      updateOpeningList();
+    }
+
+    document.addEventListener("DOMContentLoaded", async () => {
+      game = new Chess();
+
+      board = Chessground(document.getElementById("board"), {
+        fen: game.fen(),
+        movable: {
+          color: 'both',
+          free: false,
+          dests: getDests(),
+          events: {
+            after: (from, to) => {
+              const move = game.move({ from, to, sloppy: true });
+              if (move) {
+                board.set({ fen: game.fen(), movable: { dests: getDests() } });
+                updateOpeningList();
+              }
+            }
+          }
+        }
+      });
+
+      await loadOpenings();
+    });
+
+    document.getElementById("resetBtn").addEventListener("click", () => {
+      game.reset();
+      board.set({ fen: game.fen(), movable: { dests: getDests() } });
+      updateOpeningList();
+    });
+  </script>
+</body>
+</html>
+

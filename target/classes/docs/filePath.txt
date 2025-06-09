@@ -1,0 +1,56 @@
+[기본]
+- 환영 페이지
+- 게스트 인덱스 페이지
+- 로그인 페이지 
+- 회원가입 페이지
+- 홈 인덱스 페이지
+	기능 - 체스 방 만들기
+- 개인 프로필 페이지
+- 정보수정 페이지
+
+[체스 플레이]
+- 체스 게임 페이지
+	기능 - 방만들기 웹소켓 
+	기능 - 접속자 2인 체스 플레이
+	기능 - 기보 기록 
+
+[블런더 포스트]
+- 포스트 전체 보기
+- 포스트 상세 보기
+- 포스트 생성
+- 포스트 수정
+
+[체스 연습장]
+- 오프닝 연습장 페이지
+	기능 - 오프닝 기보 추적
+	기능 - 오프닝 트리 테이블 
+	기능 - 기보 기록 
+
+[체스 퀴즈]
+- 체스 퀴즈 페이지
+	기능 - 오프닝 퀴즈 제시
+	기능 - 오프닝 틀림 맞음 결정
+
+
+
+
+Basic:
+WelcomePage.html
+GuestIndex.html
+LoginPage.html
+SignupPage.html
+HomeIndex.html
+ChessGame:
+ChessGamePage.html
+PersonalProfile:
+ProfilePage.html
+EditProfilePage.html
+BlunderPost:
+ViewPosts.html
+ViewPostDetail.html
+CreatePost.html
+EditPost.html
+OpenPractice:
+OpeningPracticePage.html
+ChessQuiz:
+ChessQuizPage.html

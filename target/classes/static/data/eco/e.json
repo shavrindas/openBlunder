@@ -1,0 +1,5830 @@
+[
+  {
+    "eco": "E00",
+    "name": "Catalan Opening",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3"
+    ]
+  },
+  {
+    "eco": "E00",
+    "name": "Catalan Opening",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E00",
+    "name": "Catalan Opening: Hungarian Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "e5"
+    ]
+  },
+  {
+    "eco": "E00",
+    "name": "Indian Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Qb3"
+    ]
+  },
+  {
+    "eco": "E00",
+    "name": "Indian Defense: Devin Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g4"
+    ]
+  },
+  {
+    "eco": "E00",
+    "name": "Indian Defense: Seirawan Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Bg5"
+    ]
+  },
+  {
+    "eco": "E01",
+    "name": "Catalan Opening: Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2"
+    ]
+  },
+  {
+    "eco": "E02",
+    "name": "Catalan Opening: Open Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "dxc4"
+    ]
+  },
+  {
+    "eco": "E03",
+    "name": "Catalan Opening: Open Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "dxc4",
+      "Qa4+",
+      "Nbd7",
+      "Qxc4"
+    ]
+  },
+  {
+    "eco": "E03",
+    "name": "Catalan Opening: Open Defense, Alekhine Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "dxc4",
+      "Qa4+",
+      "Nbd7",
+      "Qxc4",
+      "a6",
+      "Qc2"
+    ]
+  },
+  {
+    "eco": "E04",
+    "name": "Catalan Opening: Open Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "dxc4",
+      "Nf3"
+    ]
+  },
+  {
+    "eco": "E04",
+    "name": "Catalan Opening: Open Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "d5",
+      "g3",
+      "c6",
+      "Bg2",
+      "dxc4"
+    ]
+  },
+  {
+    "eco": "E04",
+    "name": "Catalan Opening: Open Defense, Modern Sharp Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "dxc4",
+      "Nf3",
+      "Nc6",
+      "Qa4",
+      "Bb4+"
+    ]
+  },
+  {
+    "eco": "E05",
+    "name": "Catalan Opening: Open Defense, Classical Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "dxc4",
+      "Nf3",
+      "Be7"
+    ]
+  },
+  {
+    "eco": "E05",
+    "name": "Catalan Opening: Open Defense, Classical Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "d5",
+      "g3",
+      "Be7",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "dxc4"
+    ]
+  },
+  {
+    "eco": "E06",
+    "name": "Catalan Opening: Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7",
+      "Nf3"
+    ]
+  },
+  {
+    "eco": "E06",
+    "name": "Catalan Opening: Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "d5",
+      "g3",
+      "Bb4+",
+      "Bd2",
+      "Be7",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "c6",
+      "Bf4",
+      "b6"
+    ]
+  },
+  {
+    "eco": "E06",
+    "name": "Catalan Opening: Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "c6",
+      "Qc2",
+      "b6",
+      "Nbd2",
+      "Bb7",
+      "e4",
+      "Na6"
+    ]
+  },
+  {
+    "eco": "E07",
+    "name": "Catalan Opening: Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "Nbd7"
+    ]
+  },
+  {
+    "eco": "E07",
+    "name": "Catalan Opening: Closed, Botvinnik Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Nc3",
+      "c6",
+      "Qd3"
+    ]
+  },
+  {
+    "eco": "E08",
+    "name": "Catalan Opening: Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Qc2"
+    ]
+  },
+  {
+    "eco": "E08",
+    "name": "Catalan Opening: Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Qc2",
+      "c6",
+      "b3"
+    ]
+  },
+  {
+    "eco": "E08",
+    "name": "Catalan Opening: Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Qc2",
+      "c6",
+      "b3",
+      "b6"
+    ]
+  },
+  {
+    "eco": "E08",
+    "name": "Catalan Opening: Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "c6",
+      "Qc2",
+      "b6",
+      "Rd1",
+      "Nbd7",
+      "Bf4"
+    ]
+  },
+  {
+    "eco": "E08",
+    "name": "Catalan Opening: Closed",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Qc2",
+      "c6",
+      "Bf4",
+      "b6",
+      "Nbd2",
+      "Bb7",
+      "e4"
+    ]
+  },
+  {
+    "eco": "E08",
+    "name": "Catalan Opening: Closed, Spassky Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "Be7",
+      "Bg2",
+      "d5",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Qc2",
+      "c6",
+      "b3",
+      "b6",
+      "Rd1",
+      "Bb7",
+      "Nc3",
+      "b5"
+    ]
+  },
+  {
+    "eco": "E08",
+    "name": "Catalan Opening: Closed, Zagoryansky Variation",
+    "moves": [
+      "d4",
+      "e6",
+      "c4",
+      "Nf6",
+      "Nf3",
+      "d5",
+      "g3",
+      "Be7",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Qc2",
+      "c6",
+      "Rd1",
+      "b6",
+      "a4"
+    ]
+  },
+  {
+    "eco": "E09",
+    "name": "Catalan Opening: Closed Variation, Rabinovich Variation",
+    "moves": [
+      "d4",
+      "d5",
+      "c4",
+      "c6",
+      "Nf3",
+      "Nf6",
+      "Qc2",
+      "e6",
+      "Nbd2",
+      "Be7",
+      "g3",
+      "Nbd7",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "b5"
+    ]
+  },
+  {
+    "eco": "E09",
+    "name": "Catalan Opening: Closed Variation, Traditional Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "d5",
+      "g3",
+      "Be7",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Qc2",
+      "c6",
+      "Nbd2",
+      "b6"
+    ]
+  },
+  {
+    "eco": "E09",
+    "name": "Catalan Opening: Closed, Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "d5",
+      "g3",
+      "Be7",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Qc2",
+      "c6",
+      "Nbd2"
+    ]
+  },
+  {
+    "eco": "E09",
+    "name": "Catalan Opening: Closed, Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "d5",
+      "g3",
+      "Be7",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "c6",
+      "Qc2",
+      "b6",
+      "Nbd2",
+      "Bb7",
+      "e4",
+      "Nbd7"
+    ]
+  },
+  {
+    "eco": "E09",
+    "name": "Catalan Opening: Closed, Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "d5",
+      "g3",
+      "Be7",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Qc2",
+      "c6",
+      "Bf4",
+      "b6",
+      "Nbd2",
+      "Bb7",
+      "e4",
+      "dxe4",
+      "Nxe4",
+      "Nxe4",
+      "Qxe4"
+    ]
+  },
+  {
+    "eco": "E09",
+    "name": "Catalan Opening: Closed, Sokolsky Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Be7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Qc2",
+      "c6",
+      "Nbd2",
+      "b6",
+      "b3",
+      "a5",
+      "Bb2",
+      "Ba6"
+    ]
+  },
+  {
+    "eco": "E10",
+    "name": "Blumenfeld Countergambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "c5",
+      "d5",
+      "b5"
+    ]
+  },
+  {
+    "eco": "E10",
+    "name": "Blumenfeld Countergambit Accepted",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "c5",
+      "d5",
+      "b5",
+      "dxe6",
+      "fxe6",
+      "cxb5",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E10",
+    "name": "Blumenfeld Countergambit: Duz-Khotimirsky Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "c5",
+      "d5",
+      "b5",
+      "Bg5"
+    ]
+  },
+  {
+    "eco": "E10",
+    "name": "Blumenfeld Countergambit: Spielmann Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "c5",
+      "d5",
+      "b5",
+      "Bg5",
+      "exd5",
+      "cxd5",
+      "h6"
+    ]
+  },
+  {
+    "eco": "E10",
+    "name": "Indian Defense: Anti-Nimzo-Indian",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3"
+    ]
+  },
+  {
+    "eco": "E10",
+    "name": "Indian Defense: Dzindzi-Indian Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "a6"
+    ]
+  },
+  {
+    "eco": "E10",
+    "name": "Indian Defense: Döry Indian",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Ne4"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Exchange Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+",
+      "Bd2",
+      "Bxd2+"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Grünfeld Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+",
+      "Nbd2"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Haiti Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+",
+      "Bd2",
+      "Nc6"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Monticelli Trap",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Bb4+",
+      "Bd2",
+      "Bxd2+",
+      "Qxd2",
+      "O-O",
+      "Nc3",
+      "Ne4",
+      "Qc2",
+      "Nxc3",
+      "Ng5"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: New England Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+",
+      "Nfd2"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Nimzowitsch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+",
+      "Bd2",
+      "Qe7"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Retreat Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+",
+      "Bd2",
+      "Be7"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Retreat Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "Bb4+",
+      "Bd2",
+      "Be7",
+      "Bg2",
+      "d5",
+      "Nf3"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Retreat Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "Bb4+",
+      "Bd2",
+      "Be7",
+      "Bg2",
+      "d5",
+      "Nf3",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Retreat Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "Bb4+",
+      "Bd2",
+      "Be7",
+      "Bg2",
+      "d5",
+      "Nf3",
+      "O-O",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Retreat Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "Bb4+",
+      "Bd2",
+      "Be7",
+      "Bg2",
+      "d5",
+      "Nf3",
+      "O-O",
+      "Qc2",
+      "c6",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Retreat Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3",
+      "Bb4+",
+      "Bd2",
+      "Be7",
+      "Bg2",
+      "d5",
+      "Nf3",
+      "Nbd7",
+      "O-O",
+      "O-O",
+      "Qc2",
+      "c6"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Retreat Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "d5",
+      "g3",
+      "Bb4+",
+      "Bd2",
+      "Be7",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "c6",
+      "Qc2",
+      "Nbd7",
+      "Bf4",
+      "b6",
+      "Nbd2"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Retreat Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "d5",
+      "g3",
+      "Bb4+",
+      "Bd2",
+      "Be7",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "c6",
+      "Qc2",
+      "Nbd7",
+      "Bf4",
+      "b6",
+      "Nbd2",
+      "Ba6"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Vitolins Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+",
+      "Bd2",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E11",
+    "name": "Bogo-Indian Defense: Wade-Smyslov Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+",
+      "Bd2",
+      "a5"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "Nc3"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov Variation, Botvinnik Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "Nc3",
+      "Bb7",
+      "Bg5",
+      "h6",
+      "Bh4",
+      "g5",
+      "Bg3",
+      "Nh5"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Bb7",
+      "Nc3"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Andersson Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Bb7",
+      "Nc3",
+      "Ne4"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Classical Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Bb7",
+      "Nc3",
+      "d5",
+      "cxd5",
+      "exd5"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Hedgehog Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Bb7",
+      "Nc3",
+      "g6"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Kasparov Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Bb7",
+      "Nc3",
+      "d5",
+      "cxd5",
+      "Nxd5",
+      "Qc2"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Bb7",
+      "Nc3",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Marco Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Bb7",
+      "Nc3",
+      "Be7"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Modern Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Bb7",
+      "Nc3",
+      "d5",
+      "cxd5",
+      "Nxd5"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Petrosian Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Bb7",
+      "Nc3",
+      "d5",
+      "cxd5",
+      "Nxd5",
+      "e3"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Polovodin Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "Nc3",
+      "Bb7",
+      "a3",
+      "d5",
+      "cxd5",
+      "Nxd5",
+      "e4"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Rashkovsky Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Bb7",
+      "Nc3",
+      "d5",
+      "cxd5",
+      "Nxd5",
+      "Qa4+"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Kasparov-Petrosian Variation, Romanishin Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Bb7",
+      "Nc3",
+      "d5",
+      "cxd5",
+      "Nxd5",
+      "Bd2"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Miles Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "Bf4"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Petrosian Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3"
+    ]
+  },
+  {
+    "eco": "E12",
+    "name": "Queen's Indian Defense: Petrosian Variation, Farago Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "a3",
+      "Ba6",
+      "Qc2",
+      "Bb7"
+    ]
+  },
+  {
+    "eco": "E13",
+    "name": "Queen's Indian Defense: Kasparov Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "Nc3",
+      "Bb4",
+      "Bg5",
+      "h6",
+      "Bh4",
+      "Bb7"
+    ]
+  },
+  {
+    "eco": "E14",
+    "name": "Queen's Indian Defense: Averbakh Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "e3",
+      "Bb7",
+      "Bd3",
+      "c5",
+      "O-O",
+      "Be7",
+      "b3",
+      "O-O",
+      "Bb2",
+      "cxd4",
+      "Nxd4"
+    ]
+  },
+  {
+    "eco": "E14",
+    "name": "Queen's Indian Defense: Spassky System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "e3"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Buerger Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "c5",
+      "d5",
+      "exd5",
+      "Ng5"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Fianchetto Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Fianchetto Variation, Check Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Ba6",
+      "b3",
+      "Bb4+"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Fianchetto Variation, Check Variation, Intermezzo Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Ba6",
+      "b3",
+      "Bb4+",
+      "Bd2",
+      "Be7"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Fianchetto Variation, Check Variation, Modern Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Ba6",
+      "b3",
+      "Bb4+",
+      "Bd2",
+      "Qe7"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Fianchetto Variation, Nimzowitsch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Ba6"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Fianchetto Variation, Nimzowitsch Variation, Nimzowitsch Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Ba6",
+      "Qa4"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Fianchetto Variation, Nimzowitsch Variation, Quiet Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Ba6",
+      "b3"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Fianchetto Variation, Nimzowitsch Variation, Timman's Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Ba6",
+      "Qb3"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Fianchetto Variation, Rubinstein Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "c5",
+      "d5",
+      "exd5",
+      "Nh4"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Fianchetto Variation, Sämisch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E15",
+    "name": "Queen's Indian Defense: Fianchetto Variation, Traditional Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7"
+    ]
+  },
+  {
+    "eco": "E16",
+    "name": "Queen's Indian Defense: Capablanca Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Bb4+"
+    ]
+  },
+  {
+    "eco": "E16",
+    "name": "Queen's Indian Defense: Riumin Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Bb4+",
+      "Bd2",
+      "Be7"
+    ]
+  },
+  {
+    "eco": "E16",
+    "name": "Queen's Indian Defense: Yates Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+",
+      "Bd2",
+      "a5",
+      "g3",
+      "b6",
+      "Bg2",
+      "Bb7"
+    ]
+  },
+  {
+    "eco": "E17",
+    "name": "Queen's Indian Defense: Anti-Queen's Indian System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7",
+      "Nc3"
+    ]
+  },
+  {
+    "eco": "E17",
+    "name": "Queen's Indian Defense: Classical Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E17",
+    "name": "Queen's Indian Defense: Classical Variation, Polugaevsky Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7",
+      "O-O",
+      "O-O",
+      "d5",
+      "exd5",
+      "Nh4"
+    ]
+  },
+  {
+    "eco": "E17",
+    "name": "Queen's Indian Defense: Classical Variation, Taimanov Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7",
+      "O-O",
+      "O-O",
+      "d5",
+      "exd5",
+      "Nd4"
+    ]
+  },
+  {
+    "eco": "E17",
+    "name": "Queen's Indian Defense: Euwe Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7",
+      "O-O",
+      "O-O",
+      "b3"
+    ]
+  },
+  {
+    "eco": "E17",
+    "name": "Queen's Indian Defense: Fianchetto Variation, Kramnik Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7",
+      "O-O",
+      "O-O",
+      "Re1"
+    ]
+  },
+  {
+    "eco": "E17",
+    "name": "Queen's Indian Defense: Opocensky Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7",
+      "Nc3",
+      "Ne4",
+      "Bd2"
+    ]
+  },
+  {
+    "eco": "E17",
+    "name": "Queen's Indian Defense: Traditional Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7"
+    ]
+  },
+  {
+    "eco": "E18",
+    "name": "Queen's Indian Defense: Classical Variation, Tiviakov Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7",
+      "O-O",
+      "O-O",
+      "Nc3",
+      "Na6"
+    ]
+  },
+  {
+    "eco": "E18",
+    "name": "Queen's Indian Defense: Classical Variation, Traditional Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7",
+      "O-O",
+      "O-O",
+      "Nc3"
+    ]
+  },
+  {
+    "eco": "E18",
+    "name": "Queen's Indian Defense: Classical Variation, Traditional Variation, Nimzowitsch Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7",
+      "O-O",
+      "O-O",
+      "Nc3",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E19",
+    "name": "Queen's Indian Defense: Classical Variation, Traditional Variation, Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "b6",
+      "g3",
+      "Bb7",
+      "Bg2",
+      "Be7",
+      "O-O",
+      "O-O",
+      "Nc3",
+      "Ne4",
+      "Qc2",
+      "Nxc3",
+      "Qxc3"
+    ]
+  },
+  {
+    "eco": "E20",
+    "name": "Nimzo-Indian Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4"
+    ]
+  },
+  {
+    "eco": "E20",
+    "name": "Nimzo-Indian Defense: Dilworth Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e4"
+    ]
+  },
+  {
+    "eco": "E20",
+    "name": "Nimzo-Indian Defense: Kmoch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "f3"
+    ]
+  },
+  {
+    "eco": "E20",
+    "name": "Nimzo-Indian Defense: Mikenas Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qd3"
+    ]
+  },
+  {
+    "eco": "E20",
+    "name": "Nimzo-Indian Defense: Romanishin Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "g3"
+    ]
+  },
+  {
+    "eco": "E20",
+    "name": "Nimzo-Indian Defense: Romanishin Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Nf3",
+      "c5",
+      "g3",
+      "O-O",
+      "Bg2"
+    ]
+  },
+  {
+    "eco": "E20",
+    "name": "Nimzo-Indian Defense: Romanishin Variation, English Hybrid",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Nf3",
+      "c5",
+      "g3",
+      "cxd4",
+      "Nxd4",
+      "O-O",
+      "Bg2",
+      "d5",
+      "cxd5",
+      "Nxd5"
+    ]
+  },
+  {
+    "eco": "E21",
+    "name": "Nimzo-Indian Defense: Three Knights Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Nf3"
+    ]
+  },
+  {
+    "eco": "E21",
+    "name": "Nimzo-Indian Defense: Three Knights Variation, Euwe Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Nf3",
+      "c5",
+      "d5",
+      "Ne4"
+    ]
+  },
+  {
+    "eco": "E21",
+    "name": "Nimzo-Indian Defense: Three Knights Variation, Korchnoi Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Nf3",
+      "c5",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E21",
+    "name": "Nimzo-Indian Defense: Three Knights Variation, Shocron Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+",
+      "Nc3",
+      "c5",
+      "d5",
+      "b5"
+    ]
+  },
+  {
+    "eco": "E22",
+    "name": "Nimzo-Indian Defense: Spielmann Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qb3"
+    ]
+  },
+  {
+    "eco": "E23",
+    "name": "Nimzo-Indian Defense: Spielmann Variation, Carlsbad Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qb3",
+      "c5",
+      "dxc5",
+      "Nc6",
+      "Nf3",
+      "Ne4",
+      "Bd2",
+      "Nxd2"
+    ]
+  },
+  {
+    "eco": "E23",
+    "name": "Nimzo-Indian Defense: Spielmann Variation, Romanovsky Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qb3",
+      "c5",
+      "dxc5",
+      "Nc6"
+    ]
+  },
+  {
+    "eco": "E23",
+    "name": "Nimzo-Indian Defense: Spielmann Variation, Stahlberg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qb3",
+      "c5",
+      "dxc5",
+      "Nc6",
+      "Nf3",
+      "Ne4",
+      "Bd2",
+      "Nxc5"
+    ]
+  },
+  {
+    "eco": "E23",
+    "name": "Nimzo-Indian Defense: Spielmann Variation, Stahlberg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qb3",
+      "c5",
+      "dxc5",
+      "Nc6",
+      "Nf3",
+      "Ne4",
+      "Bd2",
+      "Nxc5",
+      "Qc2",
+      "f5",
+      "g3"
+    ]
+  },
+  {
+    "eco": "E24",
+    "name": "Nimzo-Indian Defense: Sämisch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "a3"
+    ]
+  },
+  {
+    "eco": "E24",
+    "name": "Nimzo-Indian Defense: Sämisch Variation, Botvinnik Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "f3",
+      "d5",
+      "a3",
+      "Bxc3+",
+      "bxc3",
+      "c5",
+      "e3",
+      "O-O",
+      "cxd5",
+      "Nxd5"
+    ]
+  },
+  {
+    "eco": "E25",
+    "name": "Nimzo-Indian Defense: Sämisch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "f3",
+      "d5",
+      "a3",
+      "Bxc3+",
+      "bxc3",
+      "c5",
+      "cxd5"
+    ]
+  },
+  {
+    "eco": "E25",
+    "name": "Nimzo-Indian Defense: Sämisch Variation, Keres Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "f3",
+      "d5",
+      "a3",
+      "Bxc3+",
+      "bxc3",
+      "c5",
+      "cxd5",
+      "Nxd5",
+      "dxc5"
+    ]
+  },
+  {
+    "eco": "E25",
+    "name": "Nimzo-Indian Defense: Sämisch Variation, Romanovsky Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "f3",
+      "d5",
+      "a3",
+      "Bxc3+",
+      "bxc3",
+      "c5",
+      "cxd5",
+      "Nxd5",
+      "dxc5",
+      "f5"
+    ]
+  },
+  {
+    "eco": "E26",
+    "name": "Nimzo-Indian Defense: Sämisch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "a3",
+      "Bxc3+",
+      "bxc3",
+      "c5",
+      "e3"
+    ]
+  },
+  {
+    "eco": "E26",
+    "name": "Nimzo-Indian Defense: Sämisch Variation, O'Kelly Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "a3",
+      "Bxc3+",
+      "bxc3",
+      "c5",
+      "e3",
+      "b6"
+    ]
+  },
+  {
+    "eco": "E27",
+    "name": "Nimzo-Indian Defense: Sämisch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "a3",
+      "Bxc3+",
+      "bxc3",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E28",
+    "name": "Nimzo-Indian Defense: Sämisch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "a3",
+      "Bxc3+",
+      "bxc3"
+    ]
+  },
+  {
+    "eco": "E29",
+    "name": "Nimzo-Indian Defense: Sämisch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "c5",
+      "Bd3",
+      "Nc6",
+      "a3",
+      "Bxc3+",
+      "bxc3",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E29",
+    "name": "Nimzo-Indian Defense: Sämisch Variation, Capablanca Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "c5",
+      "Bd3",
+      "Nc6",
+      "a3",
+      "Bxc3+",
+      "bxc3",
+      "O-O",
+      "Ne2",
+      "b6",
+      "e4",
+      "Ne8"
+    ]
+  },
+  {
+    "eco": "E30",
+    "name": "Nimzo-Indian Defense: Leningrad Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Bg5"
+    ]
+  },
+  {
+    "eco": "E30",
+    "name": "Nimzo-Indian Defense: Leningrad Variation, Averbakh Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Bg5",
+      "h6",
+      "Bh4",
+      "c5",
+      "d5",
+      "b5"
+    ]
+  },
+  {
+    "eco": "E31",
+    "name": "Nimzo-Indian Defense: Leningrad Variation, Benoni Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Bg5",
+      "h6",
+      "Bh4",
+      "c5",
+      "d5",
+      "d6"
+    ]
+  },
+  {
+    "eco": "E32",
+    "name": "Nimzo-Indian Defense: Classical Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2"
+    ]
+  },
+  {
+    "eco": "E32",
+    "name": "Nimzo-Indian Defense: Classical Variation, Keres Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "O-O",
+      "a3",
+      "Bxc3+",
+      "Qxc3",
+      "b6"
+    ]
+  },
+  {
+    "eco": "E32",
+    "name": "Nimzo-Indian Defense: Classical Variation, Vitolins-Adorjan Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "O-O",
+      "a3",
+      "Bxc3+",
+      "Qxc3",
+      "b5"
+    ]
+  },
+  {
+    "eco": "E33",
+    "name": "Nimzo-Indian Defense: Classical Variation, Milner-Barry Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "Nc6",
+      "Nf3",
+      "d6"
+    ]
+  },
+  {
+    "eco": "E33",
+    "name": "Nimzo-Indian Defense: Classical Variation, Zurich Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "Nc6"
+    ]
+  },
+  {
+    "eco": "E34",
+    "name": "Nimzo-Indian Defense: Classical Variation, Belyavsky Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "d5",
+      "cxd5",
+      "Qxd5",
+      "Nf3",
+      "Qf5",
+      "Qd1",
+      "e5"
+    ]
+  },
+  {
+    "eco": "E34",
+    "name": "Nimzo-Indian Defense: Classical Variation, Noa Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E35",
+    "name": "Nimzo-Indian Defense: Classical Variation, Noa Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "d5",
+      "cxd5",
+      "exd5"
+    ]
+  },
+  {
+    "eco": "E36",
+    "name": "Nimzo-Indian Defense: Classical Variation, Noa Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "d5",
+      "a3"
+    ]
+  },
+  {
+    "eco": "E36",
+    "name": "Nimzo-Indian Defense: Classical Variation, Noa Variation, Botvinnik Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "d5",
+      "a3",
+      "Bxc3+",
+      "Qxc3",
+      "Nc6"
+    ]
+  },
+  {
+    "eco": "E36",
+    "name": "Nimzo-Indian Defense: Classical Variation, Noa Variation, Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "d5",
+      "a3",
+      "Bxc3+",
+      "Qxc3",
+      "Ne4"
+    ]
+  },
+  {
+    "eco": "E36",
+    "name": "Nimzo-Indian Defense: Classical Variation, Romanishin Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "d5",
+      "a3",
+      "Bxc3+",
+      "Qxc3",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E37",
+    "name": "Nimzo-Indian Defense: Classical Variation, Modern Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "d5",
+      "a3",
+      "Bxc3+",
+      "Qxc3",
+      "Ne4",
+      "Qc2",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E37",
+    "name": "Nimzo-Indian Defense: Classical Variation, Noa Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "d5",
+      "a3",
+      "Bxc3+",
+      "Qxc3",
+      "Ne4",
+      "Qc2"
+    ]
+  },
+  {
+    "eco": "E37",
+    "name": "Nimzo-Indian Defense: Classical Variation, Noa Variation, San Remo Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "d5",
+      "a3",
+      "Bxc3+",
+      "Qxc3",
+      "Ne4",
+      "Qc2",
+      "Nc6",
+      "e3",
+      "e5"
+    ]
+  },
+  {
+    "eco": "E38",
+    "name": "Nimzo-Indian Defense: Classical Variation, Berlin Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E38",
+    "name": "Nimzo-Indian Defense: Classical Variation, Berlin Variation, Steiner Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "c5",
+      "dxc5",
+      "Bxc3+"
+    ]
+  },
+  {
+    "eco": "E39",
+    "name": "Nimzo-Indian Defense: Classical Variation, Berlin Variation, Macieja System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "c5",
+      "dxc5",
+      "O-O",
+      "a3",
+      "Bxc5",
+      "Nf3",
+      "b6"
+    ]
+  },
+  {
+    "eco": "E39",
+    "name": "Nimzo-Indian Defense: Classical Variation, Berlin Variation, Pirc Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Qc2",
+      "c5",
+      "dxc5",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E40",
+    "name": "Nimzo-Indian Defense: Rubinstein System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3"
+    ]
+  },
+  {
+    "eco": "E40",
+    "name": "Nimzo-Indian Defense: Rubinstein System, Taimanov Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "Nc6"
+    ]
+  },
+  {
+    "eco": "E41",
+    "name": "Nimzo-Indian Defense: Rubinstein System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E41",
+    "name": "Nimzo-Indian Defense: Rubinstein System, Hübner Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "c5",
+      "Bd3",
+      "Nc6",
+      "Nf3",
+      "Bxc3+",
+      "bxc3",
+      "d6"
+    ]
+  },
+  {
+    "eco": "E41",
+    "name": "Nimzo-Indian Defense: Rubinstein System, Hübner Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "c5",
+      "Bd3",
+      "Nc6",
+      "Nf3",
+      "Bxc3+",
+      "bxc3",
+      "d6",
+      "O-O",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E42",
+    "name": "Nimzo-Indian Defense: Rubinstein System, Rubinstein Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "c5",
+      "Ne2"
+    ]
+  },
+  {
+    "eco": "E42",
+    "name": "Nimzo-Indian Defense: Rubinstein System, Rubinstein Variation, Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "c5",
+      "Ne2",
+      "cxd4",
+      "exd4",
+      "O-O",
+      "a3"
+    ]
+  },
+  {
+    "eco": "E42",
+    "name": "Nimzo-Indian Defense: Rubinstein System, Rubinstein Variation, Sherbakov Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "c5",
+      "Ne2",
+      "cxd4",
+      "exd4",
+      "O-O",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6",
+      "Bd3",
+      "Bb7",
+      "Nf3"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6",
+      "Bd3",
+      "Bb7",
+      "Nf3",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6",
+      "Bd3",
+      "Bb7",
+      "Nf3",
+      "O-O",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6",
+      "Bd3",
+      "Bb7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6",
+      "Bd3",
+      "Bb7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "c5",
+      "Na4",
+      "cxd4",
+      "a3",
+      "Be7"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "Ne4",
+      "Qc2",
+      "f5",
+      "Nf3",
+      "b6",
+      "Bd3",
+      "Bb7"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "c5",
+      "Nf3",
+      "b6",
+      "O-O",
+      "Bb7",
+      "Na4",
+      "Qe7"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Nf3",
+      "Bxc3+",
+      "bxc3",
+      "b6",
+      "e3",
+      "Bb7",
+      "Bd3",
+      "O-O",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Nf3",
+      "b6",
+      "e3",
+      "Ne4",
+      "Qc2"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "Nf3",
+      "b6",
+      "e3",
+      "Ne4",
+      "Qc2",
+      "Bb7",
+      "Bd3",
+      "Bxc3+",
+      "bxc3",
+      "f5",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E43",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation, with Ne4",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6",
+      "Bd3",
+      "Bb7",
+      "Nf3",
+      "Ne4"
+    ]
+  },
+  {
+    "eco": "E44",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6",
+      "Ne2"
+    ]
+  },
+  {
+    "eco": "E44",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation, American Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6",
+      "Ne2",
+      "Ne4"
+    ]
+  },
+  {
+    "eco": "E44",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation, Romanishin–Psakhis Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6",
+      "Ne2",
+      "c5",
+      "a3",
+      "Ba5"
+    ]
+  },
+  {
+    "eco": "E45",
+    "name": "Nimzo-Indian Defense: St. Petersburg Variation, Fischer Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6",
+      "Ne2",
+      "Ba6"
+    ]
+  },
+  {
+    "eco": "E46",
+    "name": "Nimzo-Indian Defense: Normal Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E46",
+    "name": "Nimzo-Indian Defense: Reshevsky Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Ne2"
+    ]
+  },
+  {
+    "eco": "E46",
+    "name": "Nimzo-Indian Defense: Simagin Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Ne2",
+      "d5",
+      "a3",
+      "Bd6"
+    ]
+  },
+  {
+    "eco": "E47",
+    "name": "Nimzo-Indian Defense: Normal Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3"
+    ]
+  },
+  {
+    "eco": "E48",
+    "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E48",
+    "name": "Nimzo-Indian Defense: Ragozin Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "Nc6",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E49",
+    "name": "Nimzo-Indian Defense: Normal Variation, Botvinnik System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "a3",
+      "Bxc3+",
+      "bxc3"
+    ]
+  },
+  {
+    "eco": "E50",
+    "name": "Nimzo-Indian Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Nf3"
+    ]
+  },
+  {
+    "eco": "E51",
+    "name": "Nimzo-Indian Defense: Normal Variation, Ragozin Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Nf3",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E51",
+    "name": "Nimzo-Indian Defense: Normal Variation, Sämisch Deferred",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Nf3",
+      "d5",
+      "a3"
+    ]
+  },
+  {
+    "eco": "E51",
+    "name": "Nimzo-Indian Defense: Ragozin Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "Nc6",
+      "O-O",
+      "dxc4"
+    ]
+  },
+  {
+    "eco": "E52",
+    "name": "Nimzo-Indian Defense: Normal Variation, Schlechter Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "b6"
+    ]
+  },
+  {
+    "eco": "E52",
+    "name": "Nimzo-Indian Defense: Normal Variation, Schlechter Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "b6",
+      "Bd3",
+      "Bb7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E53",
+    "name": "Nimzo-Indian Defense: Normal Variation, Gligoric System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E53",
+    "name": "Nimzo-Indian Defense: Normal Variation, Gligoric System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "c5",
+      "O-O",
+      "Nbd7"
+    ]
+  },
+  {
+    "eco": "E53",
+    "name": "Nimzo-Indian Defense: Normal Variation, Gligoric System, Keres Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "c5",
+      "O-O",
+      "b6"
+    ]
+  },
+  {
+    "eco": "E54",
+    "name": "Nimzo-Indian Defense: Normal Variation, Gligoric System, Exchange Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "c5",
+      "O-O",
+      "dxc4",
+      "Bxc4"
+    ]
+  },
+  {
+    "eco": "E54",
+    "name": "Nimzo-Indian Defense: Normal Variation, Gligoric System, Smyslov Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "c5",
+      "O-O",
+      "dxc4",
+      "Bxc4",
+      "Qe7"
+    ]
+  },
+  {
+    "eco": "E55",
+    "name": "Nimzo-Indian Defense: Normal Variation, Gligoric System, Bronstein Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "c5",
+      "O-O",
+      "dxc4",
+      "Bxc4",
+      "Nbd7"
+    ]
+  },
+  {
+    "eco": "E56",
+    "name": "Nimzo-Indian Defense: Normal Variation, Gligoric System, Bernstein Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "c5",
+      "O-O",
+      "Nc6"
+    ]
+  },
+  {
+    "eco": "E58",
+    "name": "Nimzo-Indian Defense: Normal Variation, Bernstein Defense, Exchange Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "c5",
+      "O-O",
+      "Nc6",
+      "a3",
+      "Bxc3",
+      "bxc3"
+    ]
+  },
+  {
+    "eco": "E59",
+    "name": "Nimzo-Indian Defense: Normal Variation, Bernstein Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4",
+      "e3",
+      "O-O",
+      "Bd3",
+      "d5",
+      "Nf3",
+      "c5",
+      "O-O",
+      "Nc6",
+      "a3",
+      "Bxc3",
+      "bxc3",
+      "dxc4",
+      "Bxc4"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "Grünfeld Defense: Counterthrust Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "Bg7",
+      "Bg2",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "Indian Defense: Anti-Grünfeld, Adorjan Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "d5",
+      "b5"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "Indian Defense: Anti-Grünfeld, Advance Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "f3"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "Indian Defense: Anti-Grünfeld, Alekhine Variation, Leko Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "f3",
+      "e5"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "Indian Defense: Anti-Grünfeld, Basman-Williams Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "h4"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "Indian Defense: King's Indian Variation, Fianchetto Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "Bg7",
+      "Bg2"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "Indian Defense: West Indian Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "King's Indian Defense: Fianchetto Variation, Immediate Fianchetto",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "King's Indian Defense: Normal Variation, King's Knight Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "Nf3",
+      "g6",
+      "c4"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "King's Indian Defense: Santasiere Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "b4"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "King's Indian Defense: Semi-Classical Variation, Benoni Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "e3",
+      "d6",
+      "Be2",
+      "c6"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "King's Indian Defense: Semi-Classical Variation, Hollywood Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "Nf3",
+      "g6",
+      "c4",
+      "Bg7",
+      "Nc3",
+      "O-O",
+      "e3",
+      "d6",
+      "Be2",
+      "Nc6"
+    ]
+  },
+  {
+    "eco": "E60",
+    "name": "Queen's Pawn, Mengarini Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Qc2"
+    ]
+  },
+  {
+    "eco": "E61",
+    "name": "King's Indian Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3"
+    ]
+  },
+  {
+    "eco": "E61",
+    "name": "King's Indian Defense: Fianchetto Variation, Benjamin Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "d6",
+      "g3",
+      "O-O",
+      "Bg2",
+      "c6",
+      "O-O",
+      "Qb6"
+    ]
+  },
+  {
+    "eco": "E61",
+    "name": "King's Indian Defense: Semi-Classical Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "e3",
+      "d6",
+      "Be2"
+    ]
+  },
+  {
+    "eco": "E61",
+    "name": "King's Indian Defense: Semi-Classical Variation, Exchange Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "e3",
+      "d6",
+      "Be2",
+      "Nbd7",
+      "O-O",
+      "e5",
+      "dxe5",
+      "dxe5"
+    ]
+  },
+  {
+    "eco": "E61",
+    "name": "King's Indian Defense: Semi-Classical Variation, Queenside Storm Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "e3",
+      "d6",
+      "Be2",
+      "Nbd7",
+      "O-O",
+      "e5",
+      "b4"
+    ]
+  },
+  {
+    "eco": "E61",
+    "name": "King's Indian Defense: Smyslov Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "d6",
+      "Bg5"
+    ]
+  },
+  {
+    "eco": "E62",
+    "name": "King's Indian Defense: Fianchetto Variation, Carlsbad Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "Bg7",
+      "Bg2",
+      "O-O",
+      "Nc3",
+      "d6",
+      "Nf3",
+      "Nc6"
+    ]
+  },
+  {
+    "eco": "E62",
+    "name": "King's Indian Defense: Fianchetto Variation, Delayed Fianchetto",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "d6",
+      "g3"
+    ]
+  },
+  {
+    "eco": "E62",
+    "name": "King's Indian Defense: Fianchetto Variation, Kavalek Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "c6",
+      "Nc3",
+      "Qa5"
+    ]
+  },
+  {
+    "eco": "E62",
+    "name": "King's Indian Defense: Fianchetto Variation, Larsen Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "d6",
+      "g3",
+      "O-O",
+      "Bg2",
+      "c6",
+      "O-O",
+      "Bf5"
+    ]
+  },
+  {
+    "eco": "E62",
+    "name": "King's Indian Defense: Fianchetto Variation, Lesser Simagin (Spassky)",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "Bg7",
+      "Bg2",
+      "O-O",
+      "Nc3",
+      "d6",
+      "Nf3",
+      "Nc6",
+      "O-O",
+      "Bf5"
+    ]
+  },
+  {
+    "eco": "E62",
+    "name": "King's Indian Defense: Fianchetto Variation, Simagin Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "d6",
+      "g3",
+      "O-O",
+      "Bg2",
+      "Nc6",
+      "O-O",
+      "Bg4"
+    ]
+  },
+  {
+    "eco": "E62",
+    "name": "King's Indian Defense: Fianchetto Variation, Uhlmann-Szabo System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "Nc6",
+      "Nc3",
+      "e5"
+    ]
+  },
+  {
+    "eco": "E63",
+    "name": "King's Indian Defense: Fianchetto Variation, Panno Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "Nc6",
+      "Nc3",
+      "a6"
+    ]
+  },
+  {
+    "eco": "E63",
+    "name": "King's Indian Defense: Fianchetto Variation, Panno Variation, Blockade Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "Nc6",
+      "Nc3",
+      "a6",
+      "d5",
+      "Na5",
+      "Nd2",
+      "c5",
+      "Qc2",
+      "e5"
+    ]
+  },
+  {
+    "eco": "E63",
+    "name": "King's Indian Defense: Fianchetto Variation, Panno Variation, Donner Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "Nc6",
+      "Nc3",
+      "a6",
+      "d5",
+      "Na5",
+      "Nd2",
+      "c5",
+      "Qc2",
+      "Rb8",
+      "b3",
+      "b5",
+      "Bb2",
+      "bxc4",
+      "bxc4",
+      "Bh6"
+    ]
+  },
+  {
+    "eco": "E63",
+    "name": "King's Indian Defense: Fianchetto Variation, Panno Variation, Korchnoi Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "Nc6",
+      "Nc3",
+      "a6",
+      "h3",
+      "Rb8",
+      "Be3",
+      "b5",
+      "Nd2"
+    ]
+  },
+  {
+    "eco": "E64",
+    "name": "King's Indian Defense: Fianchetto Variation, Double Fianchetto Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "d6",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Nc3",
+      "e5",
+      "b3"
+    ]
+  },
+  {
+    "eco": "E64",
+    "name": "King's Indian Defense: Fianchetto Variation, Hungarian Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "d6",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "Nbd7",
+      "Nc3",
+      "a6"
+    ]
+  },
+  {
+    "eco": "E64",
+    "name": "King's Indian Defense: Fianchetto Variation, Pterodactyl Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "c5",
+      "Bg2",
+      "Qa5+"
+    ]
+  },
+  {
+    "eco": "E64",
+    "name": "King's Indian Defense: Fianchetto Variation, Yugoslav System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "d6",
+      "Bg2",
+      "O-O",
+      "O-O",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E64",
+    "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Rare Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "Bg7",
+      "Bg2",
+      "O-O",
+      "Nc3",
+      "d6",
+      "Nf3",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E65",
+    "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "c5",
+      "Nc3"
+    ]
+  },
+  {
+    "eco": "E65",
+    "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Exchange Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "c5",
+      "Nc3",
+      "Nc6",
+      "dxc5",
+      "dxc5"
+    ]
+  },
+  {
+    "eco": "E66",
+    "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "c5",
+      "Nc3",
+      "Nc6",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E67",
+    "name": "King's Indian Defense: Fianchetto Variation, Classical Fianchetto",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "Nbd7",
+      "Nc3",
+      "e5"
+    ]
+  },
+  {
+    "eco": "E67",
+    "name": "King's Indian Defense: Fianchetto Variation, Debrecen Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "Bg7",
+      "Bg2",
+      "O-O",
+      "Nc3",
+      "d6",
+      "Nf3",
+      "Nbd7"
+    ]
+  },
+  {
+    "eco": "E68",
+    "name": "King's Indian Defense: Fianchetto Variation, Classical Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "Nbd7",
+      "Nc3",
+      "e5",
+      "e4"
+    ]
+  },
+  {
+    "eco": "E68",
+    "name": "King's Indian Defense: Fianchetto Variation, Long Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "Nf3",
+      "d6",
+      "g3",
+      "O-O",
+      "Bg2",
+      "Nbd7",
+      "O-O",
+      "e5",
+      "e4",
+      "Re8",
+      "h3",
+      "exd4",
+      "Nxd4",
+      "Nc5",
+      "Re1",
+      "a5"
+    ]
+  },
+  {
+    "eco": "E69",
+    "name": "King's Indian Defense: Fianchetto Variation, Classical Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nf3",
+      "Bg7",
+      "g3",
+      "O-O",
+      "Bg2",
+      "d6",
+      "O-O",
+      "Nbd7",
+      "Nc3",
+      "e5",
+      "e4",
+      "c6",
+      "h3"
+    ]
+  },
+  {
+    "eco": "E70",
+    "name": "King's Indian Defense: Accelerated Averbakh Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Bg5"
+    ]
+  },
+  {
+    "eco": "E70",
+    "name": "King's Indian Defense: Kramer Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nge2"
+    ]
+  },
+  {
+    "eco": "E70",
+    "name": "King's Indian Defense: Normal Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4"
+    ]
+  },
+  {
+    "eco": "E70",
+    "name": "King's Indian Defense: Normal Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6"
+    ]
+  },
+  {
+    "eco": "E71",
+    "name": "King's Indian Defense: Makogonov Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "h3"
+    ]
+  },
+  {
+    "eco": "E72",
+    "name": "King's Indian Defense: Normal Variation, Deferred Fianchetto",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "g3"
+    ]
+  },
+  {
+    "eco": "E72",
+    "name": "King's Indian Defense: Pomar System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "g3",
+      "O-O",
+      "Bg2",
+      "e5",
+      "Nge2"
+    ]
+  },
+  {
+    "eco": "E73",
+    "name": "King's Indian Defense: Averbakh Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5"
+    ]
+  },
+  {
+    "eco": "E73",
+    "name": "King's Indian Defense: Averbakh Variation, Flexible Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5",
+      "h6"
+    ]
+  },
+  {
+    "eco": "E73",
+    "name": "King's Indian Defense: Averbakh Variation, Geller Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5",
+      "Nbd7"
+    ]
+  },
+  {
+    "eco": "E73",
+    "name": "King's Indian Defense: Averbakh Variation, Modern Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5",
+      "Na6"
+    ]
+  },
+  {
+    "eco": "E73",
+    "name": "King's Indian Defense: Averbakh Variation, Modern Defense, Burgess Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5",
+      "Na6",
+      "Qd2",
+      "c6"
+    ]
+  },
+  {
+    "eco": "E73",
+    "name": "King's Indian Defense: Averbakh Variation, Nc6 Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5",
+      "Nc6"
+    ]
+  },
+  {
+    "eco": "E73",
+    "name": "King's Indian Defense: Averbakh Variation, Spanish Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5",
+      "a6"
+    ]
+  },
+  {
+    "eco": "E73",
+    "name": "King's Indian Defense: Normal Variation, Standard Development",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2"
+    ]
+  },
+  {
+    "eco": "E73",
+    "name": "King's Indian Defense: Semi-Averbakh System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Be3"
+    ]
+  },
+  {
+    "eco": "E74",
+    "name": "King's Indian Defense: Averbakh Variation, Benoni Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E74",
+    "name": "King's Indian Defense: Averbakh Variation, Benoni Defense, Advance Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5",
+      "c5",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E74",
+    "name": "King's Indian Defense: Averbakh Variation, Benoni Defense, Exchange Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5",
+      "c5",
+      "dxc5"
+    ]
+  },
+  {
+    "eco": "E75",
+    "name": "King's Indian Defense: Averbakh Variation, Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "Bg5",
+      "c5",
+      "d5",
+      "e6"
+    ]
+  },
+  {
+    "eco": "E76",
+    "name": "King's Indian Defense: Four Pawns Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f4"
+    ]
+  },
+  {
+    "eco": "E76",
+    "name": "King's Indian Defense: Four Pawns Attack, Dynamic Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f4",
+      "O-O",
+      "Nf3",
+      "c5",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E76",
+    "name": "King's Indian Defense: Four Pawns Attack, Modern Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f4",
+      "Na6"
+    ]
+  },
+  {
+    "eco": "E77",
+    "name": "King's Indian Defense: Four Pawns Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Be2",
+      "O-O",
+      "f4"
+    ]
+  },
+  {
+    "eco": "E77",
+    "name": "King's Indian Defense: Four Pawns Attack, Florentine Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f4",
+      "O-O",
+      "Nf3",
+      "c5",
+      "d5",
+      "e6",
+      "Be2",
+      "exd5",
+      "e5"
+    ]
+  },
+  {
+    "eco": "E77",
+    "name": "King's Indian Defense: Four Pawns Attack, Normal Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f4",
+      "O-O",
+      "Nf3",
+      "c5",
+      "d5",
+      "e6",
+      "Be2"
+    ]
+  },
+  {
+    "eco": "E77",
+    "name": "King's Indian Defense: Six Pawns Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f4",
+      "O-O",
+      "Be2",
+      "c5",
+      "d5",
+      "e6",
+      "dxe6",
+      "fxe6",
+      "g4",
+      "Nc6",
+      "h4"
+    ]
+  },
+  {
+    "eco": "E78",
+    "name": "King's Indian Defense: Four Pawns Attack, Fluid Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f4",
+      "O-O",
+      "Nf3",
+      "c5",
+      "Be2"
+    ]
+  },
+  {
+    "eco": "E79",
+    "name": "King's Indian Defense: Four Pawns Attack, Exchange Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f4",
+      "O-O",
+      "Nf3",
+      "c5",
+      "Be2",
+      "cxd4",
+      "Nxd4",
+      "Nc6",
+      "Be3"
+    ]
+  },
+  {
+    "eco": "E80",
+    "name": "King's Indian Defense: Sämisch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3"
+    ]
+  },
+  {
+    "eco": "E81",
+    "name": "King's Indian Defense: Steiner Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Bg5"
+    ]
+  },
+  {
+    "eco": "E81",
+    "name": "King's Indian Defense: Sämisch Variation, Bobotsov-Korchnoi-Petrosian Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Nge2"
+    ]
+  },
+  {
+    "eco": "E81",
+    "name": "King's Indian Defense: Sämisch Variation, Byrne Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "c6",
+      "Bd3",
+      "a6"
+    ]
+  },
+  {
+    "eco": "E81",
+    "name": "King's Indian Defense: Sämisch Variation, Normal Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E81",
+    "name": "King's Indian Defense: Sämisch Variation, Sämisch Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E82",
+    "name": "King's Indian Defense: Sämisch Variation, Double Fianchetto",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "b6"
+    ]
+  },
+  {
+    "eco": "E83",
+    "name": "King's Indian Defense: Sämisch Variation, Panno Formation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "Nc6",
+      "Nge2",
+      "a6"
+    ]
+  },
+  {
+    "eco": "E83",
+    "name": "King's Indian Defense: Sämisch Variation, Ruban Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "Nc6",
+      "Nge2",
+      "Rb8"
+    ]
+  },
+  {
+    "eco": "E83",
+    "name": "King's Indian Defense: Sämisch Variation, Yates Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "Nc6"
+    ]
+  },
+  {
+    "eco": "E84",
+    "name": "King's Indian Defense: Sämisch Variation, Panno Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "Nc6",
+      "Nge2",
+      "a6",
+      "Qd2",
+      "Rb8"
+    ]
+  },
+  {
+    "eco": "E85",
+    "name": "King's Indian Defense: Sämisch Variation, Orthodox Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "e5"
+    ]
+  },
+  {
+    "eco": "E86",
+    "name": "King's Indian Defense: Sämisch Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "e5",
+      "Nge2",
+      "c6"
+    ]
+  },
+  {
+    "eco": "E87",
+    "name": "King's Indian Defense: Sämisch Variation, Bronstein Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "e5",
+      "d5",
+      "Nh5",
+      "Qd2",
+      "Qh4+",
+      "g3",
+      "Nxg3",
+      "Qf2",
+      "Nxf1",
+      "Qxh4",
+      "Nxe3",
+      "Ke2"
+    ]
+  },
+  {
+    "eco": "E87",
+    "name": "King's Indian Defense: Sämisch Variation, Closed Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "e5",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E87",
+    "name": "King's Indian Defense: Sämisch Variation, Orthodox Variation, Bronstein Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "e5",
+      "d5",
+      "Nh5",
+      "Qd2",
+      "Qh4+",
+      "g3",
+      "Nxg3",
+      "Qf2",
+      "Nxf1",
+      "Qxh4",
+      "Nxe3",
+      "Ke2",
+      "Nxc4"
+    ]
+  },
+  {
+    "eco": "E89",
+    "name": "King's Indian Defense: Sämisch Variation, Closed Variation, Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "f3",
+      "O-O",
+      "Be3",
+      "e5",
+      "Nge2",
+      "c6",
+      "d5",
+      "cxd5"
+    ]
+  },
+  {
+    "eco": "E90",
+    "name": "King's Indian Defense: Larsen Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be3"
+    ]
+  },
+  {
+    "eco": "E90",
+    "name": "King's Indian Defense: Normal Variation, Rare Defenses",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3"
+    ]
+  },
+  {
+    "eco": "E90",
+    "name": "King's Indian Defense: Zinnowitz Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Bg5"
+    ]
+  },
+  {
+    "eco": "E91",
+    "name": "King's Indian Defense: Kazakh Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "Na6"
+    ]
+  },
+  {
+    "eco": "E91",
+    "name": "King's Indian Defense: Orthodox Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2"
+    ]
+  },
+  {
+    "eco": "E92",
+    "name": "King's Indian Defense: Exchange Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "dxe5"
+    ]
+  },
+  {
+    "eco": "E92",
+    "name": "King's Indian Defense: Orthodox Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5"
+    ]
+  },
+  {
+    "eco": "E92",
+    "name": "King's Indian Defense: Orthodox Variation, Gligoric-Taimanov System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "Be3"
+    ]
+  },
+  {
+    "eco": "E92",
+    "name": "King's Indian Defense: Petrosian Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E92",
+    "name": "King's Indian Defense: Petrosian Variation, Stein Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "d5",
+      "a5"
+    ]
+  },
+  {
+    "eco": "E93",
+    "name": "King's Indian Defense: Petrosian Variation, Keres Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "d5",
+      "Nbd7",
+      "Bg5",
+      "h6",
+      "Bh4",
+      "g5",
+      "Bg3",
+      "Nh5",
+      "h4"
+    ]
+  },
+  {
+    "eco": "E93",
+    "name": "King's Indian Defense: Petrosian Variation, Normal Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "d5",
+      "Nbd7"
+    ]
+  },
+  {
+    "eco": "E94",
+    "name": "King's Indian Defense: Orthodox Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E94",
+    "name": "King's Indian Defense: Orthodox Variation, Donner Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "c6"
+    ]
+  },
+  {
+    "eco": "E94",
+    "name": "King's Indian Defense: Orthodox Variation, Glek Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Na6"
+    ]
+  },
+  {
+    "eco": "E94",
+    "name": "King's Indian Defense: Orthodox Variation, Positional Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "d6",
+      "Nc3",
+      "Nbd7",
+      "e4",
+      "e5",
+      "Nf3",
+      "g6",
+      "Be2",
+      "Bg7",
+      "O-O",
+      "O-O"
+    ]
+  },
+  {
+    "eco": "E94",
+    "name": "King's Indian Defense: Orthodox Variation, Positional Defense, Closed Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "Nbd7",
+      "O-O",
+      "e5",
+      "d5"
+    ]
+  },
+  {
+    "eco": "E94",
+    "name": "King's Indian Defense: Orthodox Variation, Ukrainian Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "a5"
+    ]
+  },
+  {
+    "eco": "E95",
+    "name": "King's Indian Defense: Orthodox Variation",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nbd7",
+      "Re1"
+    ]
+  },
+  {
+    "eco": "E96",
+    "name": "King's Indian Defense: Orthodox Variation, Positional Defense, Main Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nbd7",
+      "Re1",
+      "c6",
+      "Bf1",
+      "a5"
+    ]
+  },
+  {
+    "eco": "E97",
+    "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nc6"
+    ]
+  },
+  {
+    "eco": "E97",
+    "name": "King's Indian Defense: Orthodox Variation, Bayonet Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nc6",
+      "d5",
+      "Ne7",
+      "b4"
+    ]
+  },
+  {
+    "eco": "E97",
+    "name": "King's Indian Defense: Orthodox Variation, Bayonet Attack, Sokolov's Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nc6",
+      "d5",
+      "Ne7",
+      "b4",
+      "Nh5",
+      "Re1"
+    ]
+  },
+  {
+    "eco": "E97",
+    "name": "King's Indian Defense: Orthodox Variation, Bayonet Attack, Yepishin's Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nc6",
+      "d5",
+      "Ne7",
+      "b4",
+      "Nh5",
+      "Qc2"
+    ]
+  },
+  {
+    "eco": "E97",
+    "name": "King's Indian Defense: Orthodox Variation, Korchnoi Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nc6",
+      "d5",
+      "Ne7",
+      "Bd2"
+    ]
+  },
+  {
+    "eco": "E97",
+    "name": "King's Indian Defense: Orthodox Variation, Modern System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nc6",
+      "d5",
+      "Ne7",
+      "Nd2"
+    ]
+  },
+  {
+    "eco": "E98",
+    "name": "King's Indian Defense: Orthodox Variation, Classical System",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nc6",
+      "d5",
+      "Ne7",
+      "Ne1"
+    ]
+  },
+  {
+    "eco": "E98",
+    "name": "King's Indian Defense: Orthodox Variation, Classical System, Kozul Gambit",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nc6",
+      "d5",
+      "Ne7",
+      "Ne1",
+      "Nd7",
+      "Be3",
+      "f5",
+      "f3",
+      "f4",
+      "Bf2",
+      "g5",
+      "Rc1",
+      "Ng6",
+      "c5"
+    ]
+  },
+  {
+    "eco": "E98",
+    "name": "King's Indian Defense: Orthodox Variation, Classical System, Neo-Classical Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nc6",
+      "d5",
+      "Ne7",
+      "Ne1",
+      "Nd7",
+      "Be3"
+    ]
+  },
+  {
+    "eco": "E99",
+    "name": "King's Indian Defense: Orthodox Variation, Classical System, Benko Attack",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nc6",
+      "d5",
+      "Ne7",
+      "Ne1",
+      "Nd7",
+      "f3",
+      "f5",
+      "g4"
+    ]
+  },
+  {
+    "eco": "E99",
+    "name": "King's Indian Defense: Orthodox Variation, Classical System, Traditional Line",
+    "moves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "d6",
+      "Nf3",
+      "O-O",
+      "Be2",
+      "e5",
+      "O-O",
+      "Nc6",
+      "d5",
+      "Ne7",
+      "Ne1",
+      "Nd7",
+      "f3",
+      "f5"
+    ]
+  }
+]
