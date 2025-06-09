@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess Opening Quiz</title>
+
+    <!-- Chessground CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@9.2.1/assets/chessground.base.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@9.2.1/assets/chessground.brown.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@9.2.1/assets/chessground.cburnett.css" />
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+            background-color: #f7f7f7;
+        }
+        #board {
+            width: 400px;
+            height: 400px;
+            margin-bottom: 1rem;
+        }
+        .buttons {
+            margin-top: 1rem;
+        }
+        button {
+            padding: 10px 20px;
+            margin-right: 10px;
+        }
+        #feedback {
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>체스 오프닝 퀴즈</h1>
+    <h2 id="quizTitle">문제 제목 표시</h2> <!-- 문제 제목 표시 -->
+
+    <div id="board"></div>
+
+    <div class="buttons">
+        <button id="submitBtn">정답 제출</button>
+        <button id="resetBoardBtn">보드 초기화</button>
+        <button id="retryBtn" style="display:none;">다시 풀어 보기</button>
+        <button id="nextBtn" style="display:none;">다음 문제 가기</button>
+ 
+        
+    </div>
+
+    <div id="feedback"></div>
+
+
+
+
+    <!-- Chess.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+<!-- Chessground -->
+<script type="module">
+    import { Chessground } from "https://cdn.jsdelivr.net/npm/chessground@9.2.1/dist/chessground.min.js";
+
+    const quizList = [
+        {
+            name: "King's Indian Defense",
+            answerFen: "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 1"
+        },
+        {
+            name: "시실리안 디펜스",
+            answerFen: "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1"
+        },
+        {
+            name: "Open Sicilian",
+            answerFen: "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 1"
+        },
+        {
+            name: "Caro-Kann Defense",
+            answerFen: "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1"
+        },
+        {
+            name: "London System",
+            answerFen: "rnbqkb1r/ppp1pppp/5n2/3p4/3P1B2/5N2/PPP1PPPP/RN1QKB1R b KQkq - 0 1"
+        },
+        {
+            name: "Queen's Gambit",
+            answerFen: "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 1"
+        }
+    ];
+
+    let currentQuiz = 0;
+    const game = new Chess();
+
+    const board = Chessground(document.getElementById("board"), {
+        fen: "start",
+        movable: {
+            color: 'both',
+            free: false,
+            dests: getDests(),
+            events: {
+                after: (from, to) => {
+                    const legalMoves = game.moves({ square: from, verbose: true });
+                    const move = legalMoves.find(m => m.to === to);
+                    if (move) {
+                        game.move({ from, to });
+                        board.set({
+                            fen: game.fen(),
+                            movable: { dests: getDests() }
+                        });
+                    }
+                }
+            }
+        }
+    });
+
+    function getDests() {
+        const dests = new Map();
+        game.SQUARES.forEach(s => {
+            const moves = game.moves({ square: s, verbose: true });
+            if (moves.length)
+                dests.set(s, moves.map(m => m.to));
+        });
+        return dests;
+    }
+
+function loadQuiz(index) {
+    const quiz = quizList[index];
+    document.getElementById("quizTitle").innerText = `[문제 ${index + 1}] ${quiz.name}`;
+    document.getElementById("feedback").innerText = "";
+    document.getElementById("retryBtn").style.display = "none";
+    document.getElementById("nextBtn").style.display = "none";
+
+    game.reset();             // 시작 위치로 초기화
+    board.set({
+        fen: "start",
+        movable: { dests: getDests() }
+    });
+}
+
+// 제출 버튼 클릭 시 현재 게임 상태와 정답 FEN 비교
+document.getElementById("submitBtn").addEventListener("click", () => {
+    const correctFen = quizList[currentQuiz].answerFen;
+    const currentFen = game.fen();
+
+    if (isSamePosition(currentFen, correctFen)) {
+        document.getElementById("feedback").innerText = "✅ 정답입니다!";
+    } else {
+        document.getElementById("feedback").innerText = "❌ 틀렸습니다. 정답 전개를 보여드립니다.";
+        game.load(correctFen); // 정답 위치로 세팅
+        board.set({
+            fen: correctFen,
+            movable: { dests: getDests() }
+        });
+    }
+
+    document.getElementById("retryBtn").style.display = "inline-block";
+    document.getElementById("nextBtn").style.display = "inline-block";
+});
+
+
+    function isSamePosition(fen1, fen2) {
+        const g1 = new Chess(fen1);
+        const g2 = new Chess(fen2);
+
+        return (
+            JSON.stringify(g1.board()) === JSON.stringify(g2.board()) &&
+            g1.turn() === g2.turn() &&
+            g1.ep_square === g2.ep_square &&
+            JSON.stringify(g1.castling) === JSON.stringify(g2.castling)
+        );
+    }
+
+
+    document.getElementById("retryBtn").addEventListener("click", () => {
+        loadQuiz(currentQuiz);
+    });
+
+    document.getElementById("nextBtn").addEventListener("click", () => {
+        currentQuiz = (currentQuiz + 1) % quizList.length;
+        loadQuiz(currentQuiz);
+    });
+
+    loadQuiz(currentQuiz);
+
+
+document.getElementById("resetBoardBtn").addEventListener("click", () => {
+    game.reset();
+    board.set({
+        fen: "start",
+        movable: { dests: getDests() }
+    });
+    document.getElementById("feedback").innerText = "보드가 초기화되었습니다.";
+});
+</script>
+
+
+</body>
+
+
+</html>

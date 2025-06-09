@@ -1,0 +1,182 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Chess Game</title> 
+<!-- Chessground CSS --> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@9.2.1/assets/chessground.base.css" /> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@9.2.1/assets/chessground.brown.css" />
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chessground@9.2.1/assets/chessground.cburnett.css" />
+<script th:inline="javascript">
+    const ROOM_ID = /*[[${room.id}]]*/ 0;
+    const USER_ID = /*[[${user.id}]]*/ 0;
+    const HOST_USER_ID = /*[[${room.hostUser.id}]]*/ 0;
+
+    const ROLE = (USER_ID === HOST_USER_ID) ? 'host' : 'guest';
+    const MY_COLOR = (ROLE === 'host') ? 'white' : 'black';
+</script>
+  <!-- SockJS & STOMP --> <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js">
+  </script> <script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script> 
+  <!-- Chess.js (룰 엔진) --> <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+  
+  
+   <style> #board { width: 400px; height: 400px; margin-top: 20px; } </style> 
+   </head>
+<body> <h2>실시간 체스 게임</h2> <div id="board"></div> <button onclick="copyPgn()">📋 기보 복사</button> 
+
+
+
+
+
+<script type="module">
+import { Chessground } from "https://cdn.jsdelivr.net/npm/chessground@9.2.1/dist/chessground.min.js";
+
+const boardElement = document.getElementById("board");
+const socket = new SockJS("/ws");
+const stompClient = Stomp.over(socket);
+
+const game = new window.Chess();
+let gameEnded = false;
+let moveHistory = [];
+
+/** 체스보드 초기화 **/
+const ground = Chessground(boardElement, {
+    orientation: MY_COLOR,
+    draggable: { enabled: true },
+    movable: {
+        color: null,
+        dests: new Map(),
+        events: {
+            after: (from, to) => {
+                if (gameEnded) return;
+
+                const legalMoves = game.moves({ square: from, verbose: true });
+                const move = legalMoves.find(m => m.to === to);
+                if (!move) {
+                    console.log("❌ 불법 수");
+                    return;
+                }
+
+                game.move({ from, to });
+                moveHistory.push(move.san);
+
+                const fen = game.fen();
+
+                // 서버로 수 전달
+                stompClient.send("/app/move", {}, JSON.stringify({
+                    roomId: ROOM_ID,
+                    fen: fen,
+                    pgn: "" // 필요시 서버에서 처리
+                }));
+
+                ground.set({ movable: { color: null, dests: new Map() } });
+            }
+        }
+    },
+    highlight: { lastMove: true, check: true }
+});
+
+/** 이동 가능성 및 턴 갱신 **/
+function updateMovable(playTurn) {
+    if (gameEnded) return;
+
+    const isMyTurn = (playTurn.toLowerCase() === MY_COLOR);
+    const dests = new Map();
+
+    if (isMyTurn) {
+        game.board().forEach((row, rankIdx) => {
+            row.forEach((piece, fileIdx) => {
+                if (piece && piece.color === MY_COLOR[0]) {
+                    const square = String.fromCharCode(97 + fileIdx) + (8 - rankIdx);
+                    const moves = game.moves({ square: square, verbose: true });
+                    if (moves.length > 0) {
+                        dests.set(square, moves.map(m => m.to));
+                    }
+                }
+            });
+        });
+    }
+
+    ground.set({
+        movable: {
+            color: isMyTurn ? MY_COLOR : null,
+            dests: dests
+        },
+        turnColor: playTurn.toLowerCase()
+    });
+}
+
+/** 게임 종료 후 이동 비활성화 **/
+function disableMoves() {
+    ground.set({ movable: { color: null, dests: new Map() } });
+}
+
+/** 결과 알림 (승/패/무) **/
+function showResult(resultType) {
+    gameEnded = true;
+    disableMoves();
+
+    if (resultType === "draw") {
+        alert("🤝 무승부입니다.");
+    } else {
+        const win = resultType.toLowerCase() === MY_COLOR;
+        alert(win ? "🎉 승리하셨습니다!" : "😢 패배하셨습니다.");
+    }
+}
+
+/** PGN 복사 기능 **/
+window.copyPgn = function () {
+    const formatted = formatMoves(moveHistory);
+    navigator.clipboard.writeText(formatted)
+        .then(() => alert("📋 기보가 복사되었습니다"))
+        .catch(err => alert("❌ 복사 실패: " + err));
+};
+
+/** PGN 수순 포맷팅 **/
+function formatMoves(moves) {
+    let result = "";
+    for (let i = 0; i < moves.length; i++) {
+        if (i % 2 === 0) result += (Math.floor(i / 2) + 1) + ". ";
+        result += moves[i] + " ";
+    }
+    return result.trim();
+}
+
+/** 메시지 수신 및 처리 **/
+stompClient.connect({}, () => {
+    console.log("✅ WebSocket 연결됨");
+
+    stompClient.subscribe(`/topic/room/${ROOM_ID}`, message => {
+        const data = JSON.parse(message.body);
+
+        try {
+            game.load(data.fen);
+        } catch (err) {
+            console.error("❌ FEN 로딩 실패:", err.message);
+            return;
+        }
+
+        ground.set({ fen: data.fen });
+
+        if (game.in_checkmate()) {
+            const winner = data.playTurn === "WHITE" ? "black" : "white";
+            showResult(winner);
+            return;
+        } else if (game.in_draw()) {
+            showResult("draw");
+            return;
+        }
+
+        updateMovable(data.playTurn);
+    });
+
+    // 시작 시 항상 흰색 차례부터 시작
+    updateMovable("WHITE");
+});
+</script>
+
+
+
+
+ </body>
+ 
+ </html>

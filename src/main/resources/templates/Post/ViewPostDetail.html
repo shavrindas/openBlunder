@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title th:text="${post.title}">게시글 상세</title>
+</head>
+<body>
+<h1 th:text="${post.title}">제목</h1>
+<p>작성자: <span th:text="${post.user.username}">작성자</span></p>
+<p>작성일: <span th:text="${#temporals.format(post.createdAt, 'yyyy-MM-dd HH:mm')}">작성일</span></p>
+<div>
+    <h3>내용</h3>
+    <div th:utext="${post.content}">내용</div>
+</div>
+
+<div>
+    <h3>PGN</h3>
+    <pre th:text="${post.pgn}">PGN</pre>
+</div>
+
+<div>
+    <a th:if="${session.user != null and session.user.id == post.user.id}" th:href="@{'/posts/' + ${post.id} + '/edit'}">수정</a>
+    <form th:if="${session.user != null and session.user.id == post.user.id}" th:action="@{'/posts/' + ${post.id} + '/delete'}" method="post" onsubmit="return confirm('삭제하시겠습니까?');">
+        <button type="submit">삭제</button>
+    </form>
+</div>
+
+
+
+<form th:action="@{'/posts/' + ${post.id} + '/like'}" method="post">
+    <button type="submit">❤️ 좋아요 (<span th:text="${post.likeCount}">0</span>)</button>
+</form>
+
+
+
+<div>
+    <h2>댓글</h2>
+    
+    <div th:each="comment : ${comments}">
+        <p>
+            <strong th:text="${comment.user.username}">작성자</strong>:
+            <span th:text="${comment.content}">내용</span>
+        </p>
+        <p th:text="${#temporals.format(comment.createdAt, 'yyyy-MM-dd HH:mm')}"></p>
+
+        <!-- 삭제 버튼: 로그인 유저와 댓글 작성자가 같을 경우에만 표시 -->
+        <div th:if="${user != null and user.id == comment.user.id}">
+            <form th:action="@{'/posts/' + ${post.id} + '/comments/' + ${comment.id} + '/delete'}"
+                  method="post" style="display:inline;">
+                <button type="submit" onclick="return confirm('댓글을 삭제하시겠습니까?')">삭제</button>
+            </form>
+        </div>
+
+        <hr>
+    </div>
+
+    <div th:if="${user != null}">
+        <form th:action="@{'/posts/' + ${post.id} + '/comments'}" method="post">
+            <textarea name="content" rows="3" cols="50" required></textarea><br>
+            <button type="submit">댓글 작성</button>
+        </form>
+    </div>
+    <div th:if="${user == null}">
+        <p><a th:href="@{/login}">로그인</a> 후 댓글을 작성할 수 있습니다.</p>
+    </div>
+</div>
+
+
+
+<a href="/posts">목록으로</a>
+
+</body>
+</html>

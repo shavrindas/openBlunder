@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome Home</h1>
+
+    <p th:if="${user != null}">
+        Hello, <span th:text="${user.username}"></span>!
+    </p>
+    <p th:if="${user != null}">
+        Hello, <span th:text="${user.id}"></span>!
+    </p>
+
+    <a th:href="@{/posts}">게시글 목록 보기</a> <!-- 추가 -->
+
+    <br>
+    <a th:href="@{/quiz}">오프닝 퀴즈</a>    
+    <a th:href="@{/practice}">오프닝 연습장</a>
+        
+    <a th:href="@{/profile}">내 프로필</a>
+    
+    <br>
+    <a th:href="@{/logout}">Logout</a>
+
+    <div>
+        <h2>🔥 이달의 인기 포스트 (최근 3일)</h2>
+        <ul>
+            <li th:each="post : ${topPosts}">
+                <a th:href="@{'/posts/' + ${post.id}}" th:text="${post.title}">제목</a>
+                <span> (♥ <span th:text="${post.likeCount}"></span>)</span>
+            </li>
+        </ul>
+    </div>    
+
+    <h2>게임방 생성</h2>
+    <form action="/chess/room" method="post">
+        <input type="text" name="roomName" placeholder="방 이름" required />
+        <input type="text" name="roomPass" placeholder="비밀번호 (선택)" />
+        <input type="hidden" name="hostUserId" th:value="${user.id}" />
+        <button type="submit">방 만들기</button>
+    </form>
+<h2>대기중인 게임방</h2>
+<div id="waitingRooms"></div>
+
+<script>
+    async function loadWaitingRooms() {
+        const res = await fetch('/chess/waiting-rooms');
+        const rooms = await res.json();
+
+        const container = document.getElementById('waitingRooms');
+        container.innerHTML = '';
+
+        if (rooms.length === 0) {
+            container.innerHTML = '<p>대기 중인 방이 없습니다.</p>';
+            return;
+        }
+
+        rooms.forEach(room => {
+            const div = document.createElement('div');
+            div.innerHTML = `
+                <span>방 이름: ${room.roomName}</span>
+                <form method="post" action="/chess/room/${room.id}/join" style="display:inline;">
+                    <button type="submit">참가</button>
+                </form>
+            `;
+            container.appendChild(div);
+        });
+    }
+
+    window.onload = loadWaitingRooms;
+</script>
+
+
+
+</body>
+</html>

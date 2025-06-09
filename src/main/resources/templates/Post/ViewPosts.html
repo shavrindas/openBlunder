@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>게시글 리스트</title>
+</head>
+<body>
+<h1>게시글 리스트</h1>
+
+<a href="/posts/create">새 글 작성</a>
+<table border="1">
+    <thead>
+        <tr>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>작성일</th>
+            <th>조회</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="post : ${postsPage.content}">
+            <td><a th:href="@{'/posts/' + ${post.id}}" th:text="${post.title}">제목</a></td>
+            <td th:text="${post.user.username}">작성자</td>
+            <td th:text="${#temporals.format(post.createdAt, 'yyyy-MM-dd HH:mm')}">작성일</td>
+            <td th:text="${post.likeCount}">좋아요</td>
+        </tr>
+    </tbody>
+</table>
+
+<div>
+    <span th:text="'페이지: ' + ${currentPage + 1}">페이지</span>
+    <div>
+        <a th:if="${currentPage > 0}" th:href="@{/posts(page=${currentPage - 1})}">이전</a>
+        <a th:if="${postsPage.hasNext()}" th:href="@{/posts(page=${currentPage + 1})}">다음</a>
+    </div>
+</div>
+
+<a th:href="(${user != null}) ? @{/home} : @{/guest}">뒤로가기</a>
+
+
+</body>
+</html>
